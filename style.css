@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playwrite FR Trad", cursive;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  overflow: hidden;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button_ {
+  margin-top: 30px;
+}
+
+.button_ a {
+  background: #402e7a;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.yesBtn{
+    position: absolute;
+    right: 50%;
+}
+
+.noBtn{
+    position: absolute;
+    padding: 2rem;
+    transition: all 0.5s ease;   
+}
