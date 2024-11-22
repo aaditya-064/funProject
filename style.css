@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Playwrite FR Trad", cursive;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
@@ -18,6 +18,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .button_ {
@@ -40,6 +45,10 @@ body {
 
 .noBtn{
     position: absolute;
-    padding: 2rem;
+    padding: 4rem;
     transition: all 0.5s ease;   
+}
+
+.request_{
+  border-radius: 4px;
 }
